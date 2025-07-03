@@ -9,6 +9,8 @@ import torch
 from transformers import pipeline
 import json
 
+print("[WARNING] Load model at your own risk, as it may take a long time to load the model and may consume a lot of memory.")
+
 # -------- Functions --------
 
 # -- Model Loading Functions --
@@ -216,7 +218,8 @@ with gr.Blocks() as demo:
     #  -------- App Title and Instructions --------
     gr.Markdown("# Welcome to Summarizer Playground!")
     gr.Markdown("""
-1. In case of any issues or information, read the [README](README.md) file.
+## WARNING: The model will run locally on your machine, so depending on the model, it may use a lot of memory and take a long time to load.
+1. In case of any issues or information, read the [README](README.md) file. (Updates to entire.py will not be frequent, as it is not the main file)
 2. In case of issues not covered in the README, please open an issue on the [GitHub Repository](https://github.com/Git-Prakhar/gradio-summarizer-playground.git)
 3. I'll try my best to resolve it as soon as possible.
 """)
