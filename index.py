@@ -44,7 +44,7 @@ with gr.Blocks() as demo:
     gr.Markdown("# Welcome to Summarizer Playground!")
     gr.Markdown("""
 1. In case of any issues or information, read the [README](README.md) file.
-2. In case of issues not covered in the README, please open an issue on the [GitHub Repository](github.com)
+2. In case of issues not covered in the README, please open an issue on the [GitHub Repository](https://github.com/Git-Prakhar/gradio-summarizer-playground.git)
 3. I'll try my best to resolve it as soon as possible.
 """)
 

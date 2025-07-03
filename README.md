@@ -22,7 +22,7 @@ pip install gradio transformers torch
 ```
 #### 2. Clone the repository
 ```bash
-git clone giturl
+git clone https://github.com/Git-Prakhar/gradio-summarizer-playground.git
 ```
 #### 3. Navigate to the cloned directory
 ```bash
