@@ -1,0 +1,7 @@
+{
+    "Facebook -> bart-large-xsum": "facebook/bart-large-xsum",
+    "Facebook -> bart-large-cnn": "facebook/bart-large-cnn",
+    "Google -> pegasus-cnn_dailymail": "google/pegasus-cnn_dailymail",
+    "Falconsai -> text_summarization": "Falconsai/text_summarization",
+    "sshleifer -> distilbart-cnn-12-6": "sshleifer/distilbart-cnn-12-6"
+}
